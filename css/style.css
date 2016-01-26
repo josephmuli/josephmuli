@@ -177,6 +177,7 @@ Intro style
     padding-bottom: 18%
     
 }
+
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -290,26 +291,51 @@ About
     background-color: #e7f5d5;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-top: 1%;
+    margin-top: 6px;
 }
 .about p{
     font-size: 22px;
 }
 .portfolio{
     background-color: #ecf5f5;
-    margin-top: 1%;
+   margin-top: 6px;
     text-align: center;
     padding: 5%
 }
 .skills{
+   background-color: #ecf5f5;
+   margin-top: 6px;
+}
+
+.contact{
+    background-color: #e7f5d5;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    
+    
+}
+.contact input{
+    background: none;
     
     
 }
 
+.contact textarea{
+    background: none;
+    width: 100%;
+}
+
 .foot{
     text-align: center;
-    background-color: grey;
+    background: #646464;
     padding: 3px;
+
+}
+.foot img{
+  padding: 3px;
+  margin-top: 1%;
+  text-align: center;
 }
 
 
