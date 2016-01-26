@@ -4,39 +4,41 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jojo</title>
+    <title>Joseph</title>
     <link rel="stylesheet" href="/css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/style.css" /> 
     <link rel="stylesheet" href="css/animate.css"/>
   </head>
   <body>
-
+        <div class="container">
       <!--NAVIGATION -->
     
       <header class="cd-header">
-          <div id="cd-logo" animated="shake"> Joseph</div>
+          <div id="cd-logo" animation="shake"> Joseph</div>
 		<nav class="cd-main-nav">
 			<ul>
-				<!-- inser more links here -->
+				
 				<li><a href="#0">Home</a></li>
 				<li><a href="#0">About</a></li>
-				<li><a href="#0">Skills</a></li>
 				<li><a href="#0">Portfolio</a></li>
+				<li><a href="#0">Skills</a></li>
 				<li><a href="#0">Contacts</a></li>
 			</ul>
-		</nav> <!-- cd-main-nav -->
+		</nav> 
 	</header>
      
       
+      
+      
       <!--INTRO SECTION -->
       
-       
          <section class="cd-intro">
              
 	<div class="cd-intro-content bouncy">
         
-		<h1>Hi There? I'm Joseph</h1>
+		<h1 class="cd-headline letters rotate-2">
+    Hi There? I'm Joseph</h1>
 		<p>My Profession, My Life, The amazing journey </p>
 		<div class="action-wrapper">
 			<a href="#about" class="cd-btn main-action">Begin Story</a>
@@ -69,7 +71,24 @@
                </div>
            </div>
     </div>
-      <!--SKILLZ SECTION -->
+      
+      <!--THE PORTFOLIO-->
+      <div class="portfolio">
+           <div class="row">
+        <div class="small-12 medium-6 large-12 columns">  
+          
+			<div class="cd-container">
+            <h3>Portfolio</h3>    
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. Inventore culpa iusto, officia exercitationem. Voluptates quibusdam odit odio incidunt consequatur, consectetur aspernatur optio vitae molestias, quas repellendus fugit ullam culpa, eligendi et dignissimos voluptatibus illum? Molestias aliquam nostrum quasi ipsa culpa, iusto explicabo ut error, consequuntur enim temporibus, adipisci tempora voluptate, id consequatur mollitia eveniet blanditiis. Illo quod repellendus alias? Cum rem doloremque adipisci accusantium? Saepe, necessitatibus!
+					
+				</p>
+			</div> 
+		
+               </div>
+           </div>
+          </div>
+           <!--SKILLZ SECTION -->
+      <div class="skills">
            <div class="row">
         <div class="small-12 medium-6 large-8 columns">  
         
@@ -78,31 +97,37 @@
 		
                </div>
            </div>
-      <!--THE PORTFOLIO-->
-           <div class="row">
-        <div class="small-12 medium-6 large-8 columns">  
-          
-			<div class="cd-container">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. Inventore culpa iusto, officia exercitationem. Voluptates quibusdam odit odio incidunt consequatur, consectetur aspernatur optio vitae molestias, quas repellendus fugit ullam culpa, eligendi et dignissimos voluptatibus illum? Molestias aliquam nostrum quasi ipsa culpa, iusto explicabo ut error, consequuntur enim temporibus, adipisci tempora voluptate, id consequatur mollitia eveniet blanditiis. Illo quod repellendus alias? Cum rem doloremque adipisci accusantium? Saepe, necessitatibus!
-					
-				</p>
-			</div> <!-- cd-container -->
-		
-               </div>
-           </div>
-           
-     
+     </div>
       <!--CONTACT INFORMATION -->
-  
-
-
-
-
-
+  <div class="contact">
+            <form class="cd-form floating-labels">
+  <fieldset>
+    <legend>Account Info</legend>
+ 
+    <div class="error-message">
+      <p>Please enter a valid email address</p>
+    </div>
+ 
+    <div class="icon">
+      <label class="cd-label" for="cd-name">Name</label>
+      <input class="user" type="text" name="cd-name" id="cd-name" required>
+      </div> 
+ 
+      <!-- ... -->
+  </fieldset>
+</form>
+            
+            
+            
+            
+            
+            </div>
 
       <!--FOOTER -->
-      
+      <footer class="foot">
+            
+            <p>JosephMuli @2016</p>
+            </footer>
       
       
  
@@ -111,5 +136,6 @@
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+        </div>    
   </body>
 </html>

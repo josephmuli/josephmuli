@@ -13,11 +13,20 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.container{
+    
+     width: 100%;
+     /*for large screens*/
+     max-width: 1400px;
+     margin: 0 auto;
+}
+
+
 
 body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
-  background-color: #ecf5f5;
+  background: rgba(145, 255, 157, 0.67);
 }
 
 body, html {
@@ -42,7 +51,7 @@ Navigation style
   left: 0;
   width: 100%;
   height: 50px;
-  background: rgba(255, 255, 255, 0.84);
+  background: rgba(137, 255, 150, 0.47);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
@@ -164,13 +173,34 @@ Intro style
     padding: 11%;
     font-size: 40px;
     width: 100%;
-    background-color: #ecf5f5;
+    background-color: #e7f5d5;
     padding-bottom: 18%
     
 }
-.cd-intro button{
-    border: 1px solid black;
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
 }
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+
+
 
 .cd-intro-content h1,
 .cd-intro-content p,
@@ -191,16 +221,16 @@ margin-top: 4%;
  
 .bouncy.cd-intro-content h1,
 .bouncy.cd-intro-content p {
-  animation-duration: 0.6s;
+  animation-duration: 3s;
 }
  
 .bouncy.cd-intro-content .cd-btn {
   animation-name: cd-bounce-rotate;
-  animation-duration: 0.5s;
+  animation-duration: 4s;
 }
  
 .bouncy.cd-intro-content .cd-btn.main-action {
-  animation-delay: 0.4s;
+  animation-delay: 5s;
 }
  
 @keyframes cd-bounce-right {
@@ -257,12 +287,30 @@ About
 
 .about{
     text-align: center;
-   background-color: #ecf5f5; 
-
+    background-color: #e7f5d5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 1%;
+}
+.about p{
+    font-size: 22px;
+}
+.portfolio{
+    background-color: #ecf5f5;
+    margin-top: 1%;
+    text-align: center;
+    padding: 5%
+}
+.skills{
+    
+    
 }
 
-
-
+.foot{
+    text-align: center;
+    background-color: grey;
+    padding: 3px;
+}
 
 
 
