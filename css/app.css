@@ -2,3 +2,13 @@
     padding: 1%;
   
 }
+.header .menu {
+    text-align: center;
+    text-align: -webkit-center;
+    position: fixed;
+    width: 100%;
+}
+ul{
+        text-align: -webkit-center;
+    font-size: 20px;
+}
