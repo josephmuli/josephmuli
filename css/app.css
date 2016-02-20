@@ -125,7 +125,15 @@ form {
 
 .cf:after {
     clear: b
+}
 
+#footer{
+    font-size: 14px;
+    overflow: hidden;
+    clear: both;
+    padding: 28px 0 30px 0;
+    text-align: center;
+}
 
 
 
