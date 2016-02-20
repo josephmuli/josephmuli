@@ -3,7 +3,7 @@
     padding: 16% 0 10% 0;
     text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 45px;
     color: #958532;
 }
 .HeroContainer {
@@ -44,7 +44,7 @@ ul {
     }
 }
 #hero #butt {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 8%
 }
 #hero .social img {
@@ -86,18 +86,19 @@ textarea {
     font-family: 'Merriweather', sans-serif;
     @include box-shadow(0 1px 1px rgba(black, 0.1));
     resize: none;
-    &:focus {
-        @include box-shadow(0 0px 2px rgba($red, 1)!important);
-    }
+}
+&:focus {
+    @include box-shadow(0 0px 2px rgba($red, 1)!important);
 }
 #submit-butt {
     color: white;
-    background: $red;
+    background: red;
+    border-radius: 5%;
     cursor: pointer;
-    &:hover {
-        @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
-        background-color: red;
-    }
+}
+#submit-butt:hover {
+    @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+    background-color: #958532;
 }
 textarea {
     height: 126px;
