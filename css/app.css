@@ -18,9 +18,8 @@
     position: fixed;
     width: 100%;
     margin-top: 3%;
-    /*    margin-left: 30%*/
-    /*    float: left;*/
 }
+.HeroContainer .menu img:hover {}
 ul {
     text-align: -webkit-center;
     font-size: 20px;
@@ -56,12 +55,12 @@ ul {
     /*    color: #958532;*/
     color: red;
 }
-.about {
+#about {
     background-color: #f6f6f6;
     padding: 10% 0 15% 0;
     text-align: center;
 }
-.about .content-wrapper {
+#about .content-wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
