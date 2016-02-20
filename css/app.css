@@ -1,5 +1,6 @@
 #hero {
-    padding: 10%;
+    padding: 20% 0 20% 0;
+    text-align: center;
  
 }
 .HeroContainer {
@@ -9,7 +10,7 @@
     
   
 }
-#hero .menu {
+.HeroContainer .menu {
     text-align: center;
     text-align: -webkit-center;
     position: fixed;
