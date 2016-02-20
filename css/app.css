@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans|Pacifico);
 #hero {
-    padding: 16% 0 0 0;
+    padding: 16% 0 10% 0;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 40px;
@@ -34,7 +34,7 @@ ul{
 }
 #hero .Hfoot{
     width: 100%;
-    margin-top: 8%;
+    margin-top: 18%;
     
     
 }
@@ -58,11 +58,11 @@ ul{
 }
 #portfolio{
    text-align: center;
-   padding: 5% 0 10% 0;
+   padding: 5% 0 9% 0;
 }
 #contact{
     text-align: center;
-   padding: 5% 0 10% 0;
+   padding: 3% 2% 2% 2%;
 }
 form {
    max-width: 600px;
@@ -139,8 +139,10 @@ form {
     font-size: 14px;
     overflow: hidden;
     clear: both;
-    padding: 28px 0 30px 0;
+    padding: 10px 0 15px 0;
     text-align: center;
+    background-color: #346ab4;
+    color: white;
 }
 
 
