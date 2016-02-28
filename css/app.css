@@ -19,7 +19,7 @@
 .HeroContainer .menu {
     text-align: center;
     text-align: -webkit-center;
-    position: fixed;
+    /*    position: fixed;*/
     width: 100%;
     margin-top: 3%;
 }
@@ -30,10 +30,6 @@ ul {
 }
 #hero .warning hollow button {
     font-size: 20px;
-}
-#hero .Hfoot {
-    width: 100%;
-    margin-top: 8%;
 }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     #hero .Hfoot {
@@ -48,10 +44,6 @@ background-repeat: no-repeat;
         height: 50vh;
     }
 }
-#hero #butt {
-    font-size: 25px;
-    margin-top: 5%
-}
 #hero .social img {
     ;
     padding: 0 1% 0 0;
@@ -63,7 +55,7 @@ background-repeat: no-repeat;
 }
 #about {
     background-color: #f6f6f6;
-    padding: 10% 0 15% 0;
+    padding: 8% 0 2% 0;
     text-align: center;
 }
 #about .content-wrapper {
@@ -73,7 +65,7 @@ background-repeat: no-repeat;
 }
 #portfolio {
     text-align: center;
-    padding: 5% 0 9% 0;
+    padding: 10% 0 9% 0;
 }
 #contact {
     text-align: center;
