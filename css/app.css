@@ -37,14 +37,16 @@ ul {
     }
     .HeroContainer {
         background-image: url(/assets/img/hero.jpg);
+        /*
         background-size: cover;
-        background-repeat: no-repeat;
+background-repeat: no-repeat;
+*/
         height: 50vh;
     }
 }
 #hero #butt {
     font-size: 25px;
-    margin-top: 8%
+    margin-top: 5%
 }
 #hero .social img {
     ;
