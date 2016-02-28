@@ -181,7 +181,6 @@ skills
     color: #1E824C;
 }
 .secondary-tabs .tabs-content {
-    border: 1px solid #999;
     border-top: none;
 }
 .secondary-tabs .tabs-content h3 {
@@ -201,7 +200,7 @@ skills
     margin: 0 auto 2rem auto;
     padding: 0;
     width: 90%;
-    height: 30px;
+    height: 18px;
     overflow: hidden;
     background: #e5e5e5;
     border-radius: 6px;
@@ -218,7 +217,7 @@ skills
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-family: tahoma, arial, helvetica;
+    font-family: tahoma, helvetica;
     font-size: 12px;
     color: white;
 }
