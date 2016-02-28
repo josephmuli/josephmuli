@@ -212,6 +212,7 @@ skills
     font-family: tahoma, helvetica;
     font-size: 12px;
     color: white;
+    text-align: center;
 }
 .meter.blue {
     background: cornflowerblue;
@@ -227,6 +228,9 @@ skills
 }
 .meter.purple {
     background: #9b59b6;
+}
+.meter.brown {
+    background: brown;
 }
 .timeline {
     list-style: none;
