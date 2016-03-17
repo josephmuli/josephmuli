@@ -233,6 +233,9 @@ skills
 .meter.brown {
     background: brown;
 }
+.meter.grey {
+    background: grey;
+}
 .timeline {
     list-style: none;
     position: relative;
