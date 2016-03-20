@@ -31,7 +31,8 @@ body {
     text-align: center;
     text-align: -webkit-center;
     width: 100%;
-    margin-top: 3%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 .HeroContainer .menu img:hover {}
 ul {
@@ -64,7 +65,7 @@ background-repeat: no-repeat;
     color: red;
 }
 #about {
-    background-color: #f6f6f6;
+    background-color: #dfe2ef;
     padding: 2% 0 2% 0;
     text-align: center;
 }
@@ -72,6 +73,12 @@ background-repeat: no-repeat;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+.tabs-content {
+    background: #dfe2ef;
+    transition: all 0.5s ease;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
 }
 #portfolio {
     text-align: center;
