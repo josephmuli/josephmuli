@@ -68,6 +68,7 @@ background-repeat: no-repeat;
     background-color: #dfe2ef;
     padding: 2% 0 2% 0;
     text-align: center;
+    font-family: 'Poiret+One';
 }
 #about .content-wrapper {
     width: 80%;
@@ -82,12 +83,13 @@ background-repeat: no-repeat;
 }
 #portfolio {
     text-align: center;
-    padding: 10% 0 9% 0;
+    padding: 5% 0 9% 0;
 }
 #contact {
     text-align: center;
     padding: 3% 2% 2% 2%;
-    background-color: #f6f6f6;
+    background-color: #dfe2ef;
+    font-family: 'Poiret+One';
 }
 form {
     max-width: 900px;
@@ -162,6 +164,7 @@ textarea {
     text-align: center;
     background-color: #414141;
     color: white;
+    font-family: 'Poiret+One';
 }
 
 /**
@@ -252,6 +255,12 @@ skills
 }
 .meter.grey {
     background: grey;
+}
+.meter.violet {
+    background: violet;
+}
+.meter.indigo {
+    background: indigo;
 }
 .timeline {
     list-style: none;
