@@ -1,17 +1,28 @@
 @import "bourbon";
 @import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Josefin+Sans);
 
 /*$green: #2ea994;*/
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
 #hero {
-    padding: 10% 0 10% 0;
+    padding-top: 10%;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 55px;
-    color: #4a4634;
+    color: #ffffff;
 }
+
+/*
+@media screen and (max-width: 63.9375em) and (min-width: 40em)
+}
+*/
+
 .HeroContainer {
-    background-image: url(/assets/img/herobg.jpg);
+    background-image: url(/assets/img/hhero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -19,7 +30,6 @@
 .HeroContainer .menu {
     text-align: center;
     text-align: -webkit-center;
-    /*    position: fixed;*/
     width: 100%;
     margin-top: 3%;
 }
@@ -55,7 +65,7 @@ background-repeat: no-repeat;
 }
 #about {
     background-color: #f6f6f6;
-    padding: 8% 0 2% 0;
+    padding: 2% 0 2% 0;
     text-align: center;
 }
 #about .content-wrapper {
