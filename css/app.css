@@ -85,6 +85,12 @@ background-repeat: no-repeat;
     text-align: center;
     padding: 5% 0 9% 0;
 }
+/*
+#portfolio #port:hover {
+    @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+    content: attr("Delani Studios");
+}
+*/
 #contact {
     text-align: center;
     padding: 3% 2% 2% 2%;
