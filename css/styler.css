@@ -341,7 +341,7 @@ header a:hover {
     opacity: .75;
 }
 .study1 {
-    background-image: url('http://www.livingfengshui.ca/wp-content/uploads/2014/01/unsplash-contemplative.jpg');
+    background-image: url('/assets/portfolio/shortStories.png');
     width: 30%;
     float: left;
     padding: 2%;
