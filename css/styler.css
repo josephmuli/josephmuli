@@ -1,6 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Poiret+One);
 html {
     height: 100%;
     width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body {
     background: rgba(0, 0, 0, 0.1);
@@ -8,12 +16,13 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Poiret One', cursive;
     color: white;
 }
 p {
     line-height: 20px;
     color: rbga(0, 0, 0, 0.8);
+    font-family: 'Poiret One', cursive;
 }
 a {
     color: white;
@@ -381,4 +390,22 @@ header a:hover {
     float: left;
     padding: 1%;
     margin-right: 2%;
+}
+.contact_title {
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 3.75rem;
+    letter-spacing: 5px;
+    background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    @media screen and (min-width: 37.5em) {
+        font-size: 4.75rem;
+    }
+}
+#about {
+    padding: 3%;
+    color: black;
 }
