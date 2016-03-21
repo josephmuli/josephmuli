@@ -1,0 +1,230 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+p {
+    line-height: 20px;
+    color: rbga(0, 0, 0, 0.8);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 250px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border-bottom: 3px solid rgba(37, 120, 100, 1.0);
+    transition: all 0.2s ease;
+}
+.btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid rgba(52, 132, 113, 1.0);
+}
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.box {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background: url("/assets/img/hhero.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.box:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /*  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.2)); */
+    z-index: 0;
+}
+header {
+    position: absolute;
+    display: table;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    z-index: 1;
+}
+header div a {
+    font-family: "Lobster", serif;
+    font-size: 24px;
+    line-height: 75px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    opacity: 0.4;
+    transition: all 0.2s ease;
+}
+header nav {
+    float: right;
+}
+header nav a {
+    font-size: 15px;
+    line-height: 75px;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.4;
+    transition: all 0.2s ease;
+}
+header nav a:last-child {
+    margin-right: 25px;
+}
+header a:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+.box .sign-up {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+.box .sign-up h1 {
+    position: aboslute;
+    width: 80%;
+    max-width: 700px;
+    margin: 70px auto 50px auto;
+    font-size: 50px;
+    line-height: 55px;
+}
+.box .sign-up p {
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* cursor */
+
+#typing {
+    font-style: italic;
+    font-weight: 300;
+}
+.typed-cursor {
+    opacity: 1;
+    font-weight: 300;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*cuursor*/
+
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+</style>
