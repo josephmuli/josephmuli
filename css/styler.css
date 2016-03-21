@@ -10,6 +10,9 @@ h4,
 h5 {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.h1-name {
+    font-family: 'Poiret One', cursive;
+}
 body {
     background: rgba(0, 0, 0, 0.1);
     margin: 0;
@@ -76,7 +79,7 @@ header {
 }
 header div a {
     font-family: "Lobster", serif;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 75px;
     float: left;
     padding-left: 25px;
@@ -88,7 +91,7 @@ header nav {
     float: right;
 }
 header nav a {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 75px;
     padding: 0 10px;
     display: inline-block;
@@ -239,13 +242,16 @@ header a:hover {
 
 /*portfolio*/
 
+#portfolio {
+    background-color: #515e76;
+}
 .title {
     text-align: center;
     font-family: 'Oswald';
     font-weight: 100;
     font-size: 3.75rem;
     letter-spacing: 5px;
-    background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
+    background: linear-gradient(white, white, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0;
@@ -406,6 +412,47 @@ header a:hover {
     }
 }
 #about {
-    padding: 3%;
+    padding: 5%;
     color: black;
+    background-color: #d8e5ff;
+}
+.invite {
+    margin-top: 4%;
+    font-size: 26px;
+}
+.typed-strings {}
+#contact {
+    background-color: #d8e5ff;
+}
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    padding: 0.5rem;
+    border: 1px solid #cacaca;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    border-radius: 0;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #d8e5ff;
 }
