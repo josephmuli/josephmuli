@@ -120,13 +120,13 @@ textarea {
 }
 #submit-butt {
     color: white;
-    background: red;
+    background: #343458;
     border-radius: 5%;
     cursor: pointer;
 }
 #submit-butt:hover {
     @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
-    background-color: #958532;
+    background-color: #2b9a1d;
 }
 textarea {
     height: 126px;
