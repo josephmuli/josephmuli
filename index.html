@@ -236,17 +236,19 @@
     <div id="contact">
         <div class="row">
             <h2>Drop me a line</h2>
-            <form class="cf">
+            <form class="cf" action="//formspree.io/jayjaymuli00@gmail.com" method="POST">
                 <div class="half left cf">
-                    <input type="text" id="input-name" placeholder="Name eg 'John Doe'">
-                    <input type="email" id="input-email" placeholder="Email eg johnDoe@mail.com">
-                    <input type="text" id="input-subject" placeholder="This's About?">
+                    <input type="text" name="name" id="input-name" placeholder="name eg 'John Doe'">
+
+                    <input type="email" id="input-email" name="_replyto" placeholder="Email eg johnDoe@mail.com">
+
+                    <input type="text" name="Topic" id="input-subject" placeholder="This's About?">
                 </div>
 
                 <div class="half right cf">
                     <textarea name="message" type="text" id="input-message" rows="5" placeholder="Say something :-)"></textarea>
                 </div>
-                <input type="submit" value="submit" id="submit-butt">
+                <input type="submit" value="send" id="submit-butt">
             </form>
 
 
