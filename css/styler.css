@@ -478,3 +478,9 @@ textarea {
 #footer .icons li {
     display: inline-block;
 }
+.onClick {
+    color: black;
+}
+.onClick:hover {
+    color: blue;
+}
