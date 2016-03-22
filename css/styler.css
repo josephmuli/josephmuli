@@ -79,7 +79,7 @@ header {
 }
 header div a {
     font-family: "Lobster", serif;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 75px;
     float: left;
     padding-left: 25px;
@@ -91,7 +91,8 @@ header nav {
     float: right;
 }
 header nav a {
-    font-size: 20px;
+    font-size: 28px;
+    font-weight: 200;
     line-height: 75px;
     padding: 0 10px;
     display: inline-block;
@@ -415,10 +416,16 @@ header a:hover {
     padding: 5%;
     color: black;
     background-color: #d8e5ff;
+    font-size: 25px;
+    text-align: center;
+}
+.about_text {
+    line-height: 26px;
 }
 .invite {
     margin-top: 4%;
-    font-size: 26px;
+    margin-bottom: 1%;
+    font-size: 30px;
 }
 .typed-strings {}
 #contact {
