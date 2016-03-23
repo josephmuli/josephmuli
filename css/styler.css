@@ -35,6 +35,7 @@ a {
 .btn {
     display: block;
     margin: 0 auto;
+    margin-top: 3%;
     line-height: 50px;
     width: 250px;
     height: 50px;
