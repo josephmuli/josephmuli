@@ -11,6 +11,7 @@ h5 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 .h1-name {
+    margin-top: 5%;
     font-family: 'Poiret One', cursive;
 }
 body {
@@ -490,4 +491,13 @@ textarea {
 }
 .onClick:hover {
     color: blue;
+}
+.icons_hero {
+    margin-top: 4%;
+    list-style-type: none;
+}
+.icons_hero li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0.5%;
 }
