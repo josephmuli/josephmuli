@@ -432,6 +432,7 @@ header a:hover {
 .typed-strings {}
 #contact {
     background-color: #d8e5ff;
+    font-family: 'Poiret One', cursive;
 }
 [type='text'],
 [type='password'],
