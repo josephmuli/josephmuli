@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Poiret+One);
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poiret One', cursive;
+}
+body {
+    font-size: 1.6rem;
+    color: #0f1926;
+    background-color: #ebebeb;
+}
+a {
+    color: #eebb00;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.cd-btn {
+    display: inline-block;
+    padding: 1.4em 2em;
+    border-radius: 50em;
+    background-color: #0e205a;
+    box-shadow: 0 1px 20px rgba(238, 187, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.no-touch .cd-btn:hover {
+    box-shadow: 0 1px 30px rgba(238, 187, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
