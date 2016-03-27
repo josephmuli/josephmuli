@@ -246,7 +246,7 @@ header a:hover {
 
 /*portfolio*/
 
-#portfolio {
+#skills {
     background-color: #515e76;
 }
 .title {
@@ -263,15 +263,21 @@ header a:hover {
         font-size: 4.75rem;
     }
 }
+
+/*
 .case-study-gallery {
     margin-top: 50px;
     width: 90%;
     margin: 50px auto;
     max-width: 1100px;
 }
+*/
+
+
+/*
 .case-study {
     position: relative;
-    /*    display: block;*/
+        display: block;
     width: 10%;
     height: 250px;
     margin: 0 auto 2rem;
@@ -280,7 +286,10 @@ header a:hover {
     box-shadow: 0px 25px 50px rgba(0, 0, 0, .5);
     overflow: hidden;
     transition: all .4s ease;
-    /*
+*/
+
+
+/*
     @media screen and (min-width: 37.5em) {
         height: 300px;
     }
@@ -290,7 +299,11 @@ header a:hover {
         margin-left: 25px;
     }
 */
+
+
 }
+
+/*
 .case-study__img {
     width: 100%;
     display: block;
@@ -318,6 +331,9 @@ header a:hover {
         transition: all .3s ease;
     }
 }
+*/
+
+/*
 .case-study__title {
     position: relative;
     top: -200px;
@@ -352,6 +368,9 @@ header a:hover {
         color: #202020;
     }
 }
+*/
+
+/*
 .case-study__title {
     top: 0;
 }
@@ -368,6 +387,9 @@ header a:hover {
     padding: 2%;
     margin-right: 2%;
 }
+*/
+
+/*
 .study2 {
     background-image: url('/assets/portfolio/Delani.png');
     width: 30%;
@@ -389,6 +411,9 @@ header a:hover {
     padding: 1%;
     margin-right: 2%;
 }
+*/
+
+/*
 .study5 {
     background-image: url('/assets/portfolio/mkahawa.png');
     width: 30%;
@@ -403,6 +428,7 @@ header a:hover {
     padding: 1%;
     margin-right: 2%;
 }
+*/
 .contact_title {
     text-align: center;
     font-family: 'Oswald';
@@ -434,6 +460,7 @@ header a:hover {
 }
 .typed-strings {}
 #contact {
+    margin-top: 20%;
     background-color: #d8e5ff;
     font-family: 'Poiret One', cursive;
 }
@@ -511,26 +538,17 @@ textarea {
 /*
 SKILLS
 */
-
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 .container {
-    max-width: 960px;
     width: 100%;
     margin: 0 auto;
 }
-.skillset {
-    margin-top: 100px;
-}
+
+/*.skillset {}*/
 .skill-lockup {
-    max-width: 450px;
+    max-width: 500px;
     width: 100%;
-    float: left;
+    /*        float: left;*/
+    
     margin-right: 40px;
 }
 .mr {
@@ -545,7 +563,7 @@ SKILLS
 }
 .skill-name {
     float: left;
-    color: #666;
+    color: white;
 }
 .skill-status {
     float: right;
@@ -556,44 +574,44 @@ SKILLS
     display: block;
     max-width: 450px;
     width: 100%;
-    height: 5px;
+    height: 8px;
     background: #e3e3e5;
     clear: both;
     margin: 20px 0;
 }
 .skill-level {
     display: table;
-    height: 5px;
+    height: 8px;
 }
-.communication,
-.planning,
-.learning,
-.programming,
-.visual-design,
+.frontend,
+.cms,
+.java,
+.android,
+.backend,
 .ux-design {
     background: #c6a60e;
 }
-.communication {
+.frontend {
     width: 40%;
     -webkit-animation: communication 10s linear;
     animation: communication 10s linear;
 }
-.planning {
+.cms {
     width: 15%;
     -webkit-animation: planning 10s linear;
     animation: planning 10s linear;
 }
-.learning {
+.java {
     width: 45%;
     -webkit-animation: learning 10s linear;
     animation: learning 10s linear;
 }
-.programming {
+.android {
     width: 30%;
     -webkit-animation: programming 10s linear;
     animation: programming 10s linear;
 }
-.visual-design {
+.backend {
     width: 20%;
     -webkit-animation: visual-design 10s linear;
     animation: visual-design 10s linear;
@@ -607,7 +625,6 @@ SKILLS
 /*-----------------------
 	  	Animations 
 -------------------------*/
-
 @-webkit-keyframes communication {
     from {
         width: 0%;
@@ -628,7 +645,6 @@ SKILLS
 /*-----------------------
 	Planning Animation 
 -------------------------*/
-
 @-webkit-keyframes planning {
     from {
         width: 0%;
@@ -649,7 +665,6 @@ SKILLS
 /*-----------------------
 	Learning Animation 
 -------------------------*/
-
 @-webkit-keyframes learning {
     from {
         width: 0%;
@@ -670,7 +685,6 @@ SKILLS
 /*-----------------------
   Programming Animation 
 -------------------------*/
-
 @-webkit-keyframes programming {
     from {
         width: 0%;
@@ -691,7 +705,6 @@ SKILLS
 /*-----------------------
 Visual-Design Animation  
 -------------------------*/
-
 @-webkit-keyframes visual-design {
     from {
         width: 0%;
@@ -712,7 +725,6 @@ Visual-Design Animation
 /*-----------------------
    UX-Design Animation  
 -------------------------*/
-
 @-webkit-keyframes ux-design {
     from {
         width: 0%;
@@ -733,7 +745,6 @@ Visual-Design Animation
 /*-----------------------
 	  Media queries
 -------------------------*/
-
 @media screen and (max-width: 955px) {
     .skillset {
         padding: 20px;
