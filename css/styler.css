@@ -428,13 +428,14 @@ header a:hover {
 */
 .contact_title {
     text-align: center;
-    font-family: 'Oswald';
+    font-family: 'Poiret One', cursive;
+    color: black;
     font-weight: 100;
     font-size: 3.75rem;
     letter-spacing: 5px;
-    background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*    -webkit-text-fill-color: transparent;*/
+    
     margin-bottom: 0;
     @media screen and (min-width: 37.5em) {
         font-size: 4.75rem;
@@ -443,7 +444,7 @@ header a:hover {
 #about {
     padding: 5%;
     color: black;
-    background-color: #d8e5ff;
+    background-color: #acbad6;
     font-size: 25px;
     text-align: center;
 }
@@ -457,7 +458,7 @@ header a:hover {
 }
 .typed-strings {}
 #contact {
-    background-color: #d8e5ff;
+    background-color: #acbad6;
     font-family: 'Poiret One', cursive;
 }
 [type='text'],
