@@ -22,6 +22,7 @@ body {
     width: 100%;
     font-family: 'Poiret One', cursive;
     color: white;
+    -webkit-font-smoothing: antialiased;
 }
 p {
     line-height: 20px;
@@ -270,8 +271,8 @@ header a:hover {
 }
 .case-study {
     position: relative;
-    display: block;
-    width: 90%;
+    /*    display: block;*/
+    width: 10%;
     height: 250px;
     margin: 0 auto 2rem;
     background-size: cover;
@@ -279,6 +280,7 @@ header a:hover {
     box-shadow: 0px 25px 50px rgba(0, 0, 0, .5);
     overflow: hidden;
     transition: all .4s ease;
+    /*
     @media screen and (min-width: 37.5em) {
         height: 300px;
     }
@@ -287,9 +289,10 @@ header a:hover {
         width: 45%;
         margin-left: 25px;
     }
+*/
 }
 .case-study__img {
-    width: 90%;
+    width: 100%;
     display: block;
     margin-top: 50%;
     transform: translateY(50%);
@@ -503,4 +506,246 @@ textarea {
     display: inline-block;
     font-size: 40px;
     margin: 0.5%;
+}
+
+/*
+SKILLS
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+.skillset {
+    margin-top: 100px;
+}
+.skill-lockup {
+    max-width: 450px;
+    width: 100%;
+    float: left;
+    margin-right: 40px;
+}
+.mr {
+    margin-right: 0;
+}
+.mb {
+    margin-bottom: 5px;
+}
+.skill-info {
+    display: block;
+    margin-bottom: 20px;
+}
+.skill-name {
+    float: left;
+    color: #666;
+}
+.skill-status {
+    float: right;
+    color: #c4c4c4;
+    font-size: .8em;
+}
+.skill-bar {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+    height: 5px;
+    background: #e3e3e5;
+    clear: both;
+    margin: 20px 0;
+}
+.skill-level {
+    display: table;
+    height: 5px;
+}
+.communication,
+.planning,
+.learning,
+.programming,
+.visual-design,
+.ux-design {
+    background: #c6a60e;
+}
+.communication {
+    width: 40%;
+    -webkit-animation: communication 10s linear;
+    animation: communication 10s linear;
+}
+.planning {
+    width: 15%;
+    -webkit-animation: planning 10s linear;
+    animation: planning 10s linear;
+}
+.learning {
+    width: 45%;
+    -webkit-animation: learning 10s linear;
+    animation: learning 10s linear;
+}
+.programming {
+    width: 30%;
+    -webkit-animation: programming 10s linear;
+    animation: programming 10s linear;
+}
+.visual-design {
+    width: 20%;
+    -webkit-animation: visual-design 10s linear;
+    animation: visual-design 10s linear;
+}
+.ux-design {
+    width: 10%;
+    -webkit-animation: ux-design 10s linear;
+    animation: ux-design 10s linear;
+}
+
+/*-----------------------
+	  	Animations 
+-------------------------*/
+
+@-webkit-keyframes communication {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+@keyframes communication {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+/*-----------------------
+	Planning Animation 
+-------------------------*/
+
+@-webkit-keyframes planning {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 15%;
+    }
+}
+@keyframes planning {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+/*-----------------------
+	Learning Animation 
+-------------------------*/
+
+@-webkit-keyframes learning {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 45%;
+    }
+}
+@keyframes learning {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 45%;
+    }
+}
+
+/*-----------------------
+  Programming Animation 
+-------------------------*/
+
+@-webkit-keyframes programming {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+@keyframes programming {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+/*-----------------------
+Visual-Design Animation  
+-------------------------*/
+
+@-webkit-keyframes visual-design {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 20%;
+    }
+}
+@keyframes visual-design {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 20%;
+    }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/
+
+@-webkit-keyframes ux-design {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 10%;
+    }
+}
+@keyframes ux-design {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 10%;
+    }
+}
+
+/*-----------------------
+	  Media queries
+-------------------------*/
+
+@media screen and (max-width: 955px) {
+    .skillset {
+        padding: 20px;
+    }
+    .skill-lockup {
+        max-width: 700px;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .skill-bar {
+        max-width: 700px;
+        width: 100%;
+    }
 }
