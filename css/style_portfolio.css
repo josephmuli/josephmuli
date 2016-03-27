@@ -142,3 +142,65 @@ Intro page
             transform: translateY(-95%);
         }
     }
+    /* -------------------------------- 
+
+Projects Slider
+
+-------------------------------- */
+    
+    .cd-projects-wrapper {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        background-color: #0f1926;
+        -webkit-transition: visibility 0s 0.5s;
+        -moz-transition: visibility 0s 0.5s;
+        transition: visibility 0s 0.5s;
+    }
+    .cd-projects-wrapper::before {
+        /* never visible - this is used in jQuery to check the current Media Query */
+        content: 'mobile';
+        display: none;
+    }
+    .cd-projects-wrapper.projects-visible {
+        visibility: visible;
+        -webkit-transition: visibility 0s 0s;
+        -moz-transition: visibility 0s 0s;
+        transition: visibility 0s 0s;
+    }
+    @media only screen and (min-width: 900px) {
+        .cd-projects-wrapper::before {
+            /* never visible - this is used in jQuery to check the current MQ */
+            content: 'desktop';
+        }
+    }
+    .cd-slider {
+        padding-top: 10vh;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .projects-visible .cd-slider {
+        /* smooth scrolling on iOS */
+        -webkit-overflow-scrolling: touch;
+    }
+    .cd-slider li {
+        margin: 4%;
+        opacity: 0;
+        border-radius: .25em;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        -webkit-transition: opacity 0s 0.5s;
+        -moz-transition: opacity 0s 0.5s;
+        transition: opacity 0s 0.5s;
+        /* Force hardware acceleration */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
