@@ -592,32 +592,32 @@ SKILLS
     background: #c6a60e;
 }
 .frontend {
-    width: 40%;
-    -webkit-animation: communication 10s linear;
-    animation: communication 10s linear;
+    width: 70%;
+    -webkit-animation: frontend 10s linear;
+    animation: frontend 10s linear;
 }
 .cms {
-    width: 15%;
-    -webkit-animation: planning 10s linear;
-    animation: planning 10s linear;
+    width: 69%;
+    -webkit-animation: cms 10s linear;
+    animation: cms 10s linear;
 }
 .java {
-    width: 45%;
-    -webkit-animation: learning 10s linear;
-    animation: learning 10s linear;
+    width: 65%;
+    -webkit-animation: java 10s linear;
+    animation: java 10s linear;
 }
 .android {
-    width: 30%;
-    -webkit-animation: programming 10s linear;
-    animation: programming 10s linear;
+    width: 67%;
+    -webkit-animation: android 10s linear;
+    animation: android 10s linear;
 }
 .backend {
-    width: 20%;
-    -webkit-animation: visual-design 10s linear;
-    animation: visual-design 10s linear;
+    width: 69%;
+    -webkit-animation: backend 10s linear;
+    animation: backend 10s linear;
 }
 .ux-design {
-    width: 10%;
+    width: 70%;
     -webkit-animation: ux-design 10s linear;
     animation: ux-design 10s linear;
 }
@@ -625,100 +625,100 @@ SKILLS
 /*-----------------------
 	  	Animations 
 -------------------------*/
-@-webkit-keyframes communication {
+@-webkit-keyframes frontend {
     from {
         width: 0%;
     }
     to {
-        width: 40%;
+        width: 70%;
     }
 }
-@keyframes communication {
+@keyframes frontend {
     from {
         width: 0%;
     }
     to {
-        width: 40%;
+        width: 70%;
     }
 }
 
 /*-----------------------
 	Planning Animation 
 -------------------------*/
-@-webkit-keyframes planning {
+@-webkit-keyframes cms {
     from {
         width: 0%;
     }
     to {
-        width: 15%;
+        width: 69%;
     }
 }
-@keyframes planning {
+@keyframes cms {
     from {
         width: 0%;
     }
     to {
-        width: 15%;
+        width: 69%;
     }
 }
 
 /*-----------------------
 	Learning Animation 
 -------------------------*/
-@-webkit-keyframes learning {
+@-webkit-keyframes java {
     from {
         width: 0%;
     }
     to {
-        width: 45%;
+        width: 65%;
     }
 }
-@keyframes learning {
+@keyframes java {
     from {
         width: 0%;
     }
     to {
-        width: 45%;
+        width: 65%;
     }
 }
 
 /*-----------------------
   Programming Animation 
 -------------------------*/
-@-webkit-keyframes programming {
+@-webkit-keyframes android {
     from {
         width: 0%;
     }
     to {
-        width: 30%;
+        width: 67%;
     }
 }
-@keyframes programming {
+@keyframes android {
     from {
         width: 0%;
     }
     to {
-        width: 30%;
+        width: 67%;
     }
 }
 
 /*-----------------------
 Visual-Design Animation  
 -------------------------*/
-@-webkit-keyframes visual-design {
+@-webkit-keyframes backend {
     from {
         width: 0%;
     }
     to {
-        width: 20%;
+        width: 69%;
     }
 }
-@keyframes visual-design {
+@keyframes backend {
     from {
         width: 0%;
     }
     to {
-        width: 20%;
+        width: 69%;
     }
 }
 
@@ -730,7 +730,7 @@ Visual-Design Animation
         width: 0%;
     }
     to {
-        width: 10%;
+        width: 70%;
     }
 }
 @keyframes ux-design {
@@ -738,14 +738,14 @@ Visual-Design Animation
         width: 0%;
     }
     to {
-        width: 10%;
+        width: 70%;
     }
 }
 
 /*-----------------------
 	  Media queries
 -------------------------*/
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 1000px) {
     .skillset {
         padding: 20px;
     }
