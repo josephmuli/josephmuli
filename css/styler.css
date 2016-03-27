@@ -246,9 +246,6 @@ header a:hover {
 
 /*portfolio*/
 
-#skills {
-    background-color: #515e76;
-}
 .title {
     text-align: center;
     font-family: 'Poiret One', cursive;
@@ -460,7 +457,6 @@ header a:hover {
 }
 .typed-strings {}
 #contact {
-    margin-top: 20%;
     background-color: #d8e5ff;
     font-family: 'Poiret One', cursive;
 }
@@ -538,6 +534,10 @@ textarea {
 /*
 SKILLS
 */
+#skills {
+    background-color: #515e76;
+    padding: 3%;
+}
 .container {
     width: 100%;
     margin: 0 auto;
@@ -545,10 +545,11 @@ SKILLS
 
 /*.skillset {}*/
 .skill-lockup {
-    max-width: 500px;
+    max-width: 900px;
     width: 100%;
     /*        float: left;*/
     
+    margin-left: 12%;
     margin-right: 40px;
 }
 .mr {
@@ -572,7 +573,7 @@ SKILLS
 }
 .skill-bar {
     display: block;
-    max-width: 450px;
+    max-width: 900px;
     width: 100%;
     height: 8px;
     background: #e3e3e5;
@@ -643,7 +644,7 @@ SKILLS
 }
 
 /*-----------------------
-	Planning Animation 
+	Cms Animation 
 -------------------------*/
 @-webkit-keyframes cms {
     from {
@@ -663,7 +664,7 @@ SKILLS
 }
 
 /*-----------------------
-	Learning Animation 
+	Java Animation 
 -------------------------*/
 @-webkit-keyframes java {
     from {
@@ -683,7 +684,7 @@ SKILLS
 }
 
 /*-----------------------
-  Programming Animation 
+ Android Animation 
 -------------------------*/
 @-webkit-keyframes android {
     from {
@@ -703,7 +704,7 @@ SKILLS
 }
 
 /*-----------------------
-Visual-Design Animation  
+Backend Animation  
 -------------------------*/
 @-webkit-keyframes backend {
     from {
