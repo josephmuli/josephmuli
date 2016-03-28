@@ -261,88 +261,6 @@ header a:hover {
     }
 }
 
-/*
-.case-study-gallery {
-    margin-top: 50px;
-    width: 90%;
-    margin: 50px auto;
-    max-width: 1100px;
-}
-*/
-
-
-/*
-.case-study {
-    position: relative;
-        display: block;
-    width: 10%;
-    height: 250px;
-    margin: 0 auto 2rem;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 0px 25px 50px rgba(0, 0, 0, .5);
-    overflow: hidden;
-    transition: all .4s ease;
-*/
-
-
-/*
-    @media screen and (min-width: 37.5em) {
-        height: 300px;
-    }
-    @media screen and (min-width:45em) {
-        display: inline-block;
-        width: 45%;
-        margin-left: 25px;
-    }
-*/
-
-
-}
-
-/*
-.case-study__img {
-    width: 100%;
-    display: block;
-    margin-top: 50%;
-    transform: translateY(50%);
-    margin: 0 auto;
-}
-.case-study__overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    &:after {
-        content: '';
-        width: 100%;
-        border-radius: 10px;
-        height: 100%;
-        background-color: #202020;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        z-index: -10;
-        left: 0;
-        transition: all .3s ease;
-    }
-}
-*/
-
-/*
-.case-study__title {
-    position: relative;
-    top: -200px;
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-    font-size: 2.25rem;
-    font-family: 'Poiret One', cursive;
-    font-weight: 100;
-    color: black;
-    text-align: center;
-    letter-spacing: 5px;
-    transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
 }
 .case-study__link {
     position: relative;
@@ -365,67 +283,6 @@ header a:hover {
         color: #202020;
     }
 }
-*/
-
-/*
-.case-study__title {
-    top: 0;
-}
-.case-study__link {
-    top: 0;
-}
-.case-study__overlay:after {
-    opacity: .75;
-}
-.study1 {
-    background-image: url('/assets/portfolio/shortStories.png');
-    width: 30%;
-    float: left;
-    padding: 2%;
-    margin-right: 2%;
-}
-*/
-
-/*
-.study2 {
-    background-image: url('/assets/portfolio/Delani.png');
-    width: 30%;
-    float: left;
-    padding: 1%;
-    margin-right: 2%;
-}
-.study3 {
-    background-image: url('/assets/portfolio/gnome.png');
-    width: 30%;
-    float: left;
-    padding: 1%;
-    margin-right: 2%;
-}
-.study4 {
-    background-image: url('/assets/portfolio/bobsburgers.png');
-    width: 30%;
-    float: left;
-    padding: 1%;
-    margin-right: 2%;
-}
-*/
-
-/*
-.study5 {
-    background-image: url('/assets/portfolio/mkahawa.png');
-    width: 30%;
-    float: left;
-    padding: 1%;
-    margin-right: 2%;
-}
-.study6 {
-    background-image: url('/assets/portfolio/charged.png');
-    width: 30%;
-    float: left;
-    padding: 1%;
-    margin-right: 2%;
-}
-*/
 .contact_title {
     text-align: center;
     font-family: 'Poiret One', cursive;
@@ -532,9 +389,9 @@ textarea {
     margin: 0.5%;
 }
 
-/*
+/********************************
 SKILLS
-*/
+********************************/
 #skills {
     background-color: #515e76;
     padding: 3%;
@@ -762,3 +619,7 @@ Backend Animation
         width: 100%;
     }
 }
+
+/**********************************
+SKILL TIMELINE
+***********************************/
