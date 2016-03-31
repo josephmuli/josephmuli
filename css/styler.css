@@ -628,6 +628,7 @@ SKILL TIMELINE
     padding: 2em 0;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: black;
 }
 #cd-timeline::before {
     /* this is the vertical line */
@@ -793,12 +794,12 @@ SKILL TIMELINE
 }
 .cd-timeline-content p,
 .cd-timeline-content .cd-read-more,
-.cd-timeline-content .cd-date {
+.cd-timeline-content .cd-name {
     font-size: 13px;
     font-size: 0.8125rem;
 }
 .cd-timeline-content .cd-read-more,
-.cd-timeline-content .cd-date {
+.cd-timeline-content .cd-name {
     display: inline-block;
 }
 .cd-timeline-content p {
@@ -815,7 +816,7 @@ SKILL TIMELINE
 .no-touch .cd-timeline-content .cd-read-more:hover {
     background-color: #bac4cb;
 }
-.cd-timeline-content .cd-date {
+.cd-timeline-content .cd-name {
     float: left;
     padding: .8em 0;
     opacity: .7;
@@ -840,7 +841,7 @@ SKILL TIMELINE
         font-size: 1rem;
     }
     .cd-timeline-content .cd-read-more,
-    .cd-timeline-content .cd-date {
+    .cd-timeline-content .cd-name {
         font-size: 14px;
         font-size: 0.875rem;
     }
@@ -860,13 +861,14 @@ SKILL TIMELINE
     .cd-timeline-content .cd-read-more {
         float: left;
     }
-    .cd-timeline-content .cd-date {
+    .cd-timeline-content .cd-name {
         position: absolute;
         width: 100%;
         left: 122%;
         top: 6px;
-        font-size: 16px;
+        font-size: 24px;
         font-size: 1rem;
+        color: white;
     }
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
@@ -881,7 +883,7 @@ SKILL TIMELINE
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
         float: right;
     }
-    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-name {
         left: auto;
         right: 122%;
         text-align: right;
