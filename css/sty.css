@@ -37,6 +37,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: #acbad6;
+}
+
 img {
   max-width: 100%;
 }
