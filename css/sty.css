@@ -371,3 +371,47 @@ header a:hover {
   text-align: center;
   font-size: 28px;
 }
+#footer {
+    font-size: 14px;
+    overflow: hidden;
+    clear: both;
+    padding: 2%;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    background-color: #414141;
+    color: white;
+}
+#footer .name {
+    float: left;
+    font-size: 24px;
+}
+#footer .social {
+    float: right;
+}
+#footer .copy {
+    text-align: center;
+}
+#footer .icons {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    font-size: 33px;
+}
+#footer .icons li {
+    display: inline-block;
+}
+.onClick {
+    color: black;
+}
+.onClick:hover {
+    color: blue;
+}
+.icons_hero {
+    margin-top: 4%;
+    list-style-type: none;
+}
+.icons_hero li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0.5%;
+}
