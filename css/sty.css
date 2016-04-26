@@ -27,7 +27,8 @@ body {
   font-size: 100%;
   font-family: 'Poiret One', cursive;
   color: #323d55;
-  background-color: #ebebeb;
+  background-color: #acbad6;
+  /*background-color: #ebebeb;*/
   /*background-color: #d8d8d8;*/
 }
 
@@ -84,9 +85,11 @@ header {
     transition: all 0.2s ease;
 }*/
 header nav {
-    float: right;
+    /*float: right;*/
+    text-align: center;
 }
 header nav a {
+    color: black;
     font-size: 30px;
     font-weight: 200;
     line-height: 75px;
@@ -100,6 +103,7 @@ header nav a:last-child {
     margin-right: 25px;
 }
 header a:hover {
+    color: white;
     opacity: 0.8;
     transition: all 0.2s ease;
 }
@@ -362,4 +366,8 @@ header a:hover {
   -o-transform: translate3d(0, 0, -40px);
   transform: translate3d(0, 0, -40px);
   opacity: .4;
+}
+.head{
+  text-align: center;
+  font-size: 28px;
 }
