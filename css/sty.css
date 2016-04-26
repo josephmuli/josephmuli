@@ -33,8 +33,11 @@ body {
 }
 
 a {
-  color: #d25055;
+  color: white;
   text-decoration: none;
+}
+a:hover{
+  color: #acbad6;
 }
 
 img {
@@ -381,9 +384,10 @@ header a:hover {
     background-color: #414141;
     color: white;
 }
-#footer .name {
+.footerName {
     float: left;
     font-size: 24px;
+    color: white;
 }
 #footer .social {
     float: right;
