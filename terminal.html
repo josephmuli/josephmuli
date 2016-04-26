@@ -1,0 +1,160 @@
+<div class="terminal-window">
+    <header>
+        <div class="button green"></div>
+        <div class="button yellow"></div>
+        <div class="button red"></div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/terminal.js"></script>
+
+        <style>
+            body {
+                background: #6D7074;
+            }
+            
+            .terminal-window {
+                text-align: left;
+                width: 900px;
+                height: 360px;
+                border-radius: 10px;
+                margin: auto;
+                position: relative;
+            }
+            
+            .terminal-window header {
+                background: #E0E8F0;
+                height: 30px;
+                border-radius: 8px 8px 0 0;
+                padding-left: 10px;
+            }
+            
+            .terminal-window header .button {
+                width: 12px;
+                height: 12px;
+                margin: 10px 4px 0 0;
+                display: inline-block;
+                border-radius: 8px;
+            }
+            
+            .terminal-window header .button.green {
+                background: #3BB662;
+            }
+            
+            .terminal-window header .button.yellow {
+                background: #E5C30F;
+            }
+            
+            .terminal-window header .button.red {
+                background: #E75448;
+            }
+            
+            .terminal-window section.terminal {
+                color: white;
+                font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+                font-size: 11pt;
+                background: #30353A;
+                padding: 10px;
+                box-sizing: border-box;
+                position: absolute;
+                width: 100%;
+                top: 30px;
+                bottom: 0;
+                overflow: auto;
+            }
+            
+            .terminal-window section.terminal .typed-cursor {
+                opacity: 1;
+                -webkit-animation: blink 0.7s infinite;
+                -moz-animation: blink 0.7s infinite;
+                animation: blink 0.7s infinite;
+            }
+            
+            @keyframes blink {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-webkit-keyframes blink {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-moz-keyframes blink {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            .terminal-data {
+                display: none;
+            }
+            
+            .terminal-window .gray {
+                color: gray;
+            }
+            
+            .terminal-window .green {
+                color: green;
+            }
+
+        </style>
+
+    </header>
+
+    <body>
+        <section class="terminal">
+            <div class="history"></div>
+            $&nbsp;<span class="prompt"></span>
+            <span class="typed-cursor"></span>
+
+        </section>
+</div>
+<!-- data -->
+<div class="terminal-data mimik-run-output">
+<h1>This level is under construction</h1>
+
+    <br>Found 1 developer
+    <br> ----------------------------------------------
+    <br> Developer: Joseph Munyao Muli <span class="gray"># ./users/developer.jojo</span>
+    <br>
+    <br> &nbsp;&nbsp;Personality: A back-end web and mobile developer
+    <br> &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="green">✓</span> <span class="gray">Python/Django </span>
+    <br> &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="green">✓</span> <span class="gray">Android</span>
+    <br> &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="green">✓</span> <span class="gray">Html5 | Css3 | Javascript</span>
+    <br>
+    <br>
+    <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span>
+    <br> &nbsp;&nbsp;Interests:&nbsp;&nbsp;&nbsp;Technology,&nbsp;Artificial Intelligence,&nbsp;Learning&nbsp;and Music
+    <br>
+
+    <br> &nbsp;&nbsp;Contact Me at: &nbsp;&nbsp;&nbsp;+254 722 127113&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;jayjaymuli00@gmail.com&nbsp;&nbsp;&nbsp;
+    <br>
+    <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span>
+    <br> &nbsp;&nbsp;Completed 1 search in 0.07s
+    <br>
+    <br>
+</div>
+</body>
